@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f2cd8f;
+        }
+
+        header {
+            background-color: #085a7f;
+            color: #f5f5f5;
+            padding: 20px 10%;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.5rem;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-top: 0;
+            color: #444;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #085a7f;
+            color: #f5f5f5;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            border-radius: 80%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 20px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: #ffffff;
+            background-color: #085a7f;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zaid Kashif</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="profile">
+        <img src="myimg.jpg">
+        <h2>About Me</h2>
+        <p>Hi, I’m Zaid Kashif, a Software Engineering student at FAST NUCES with a passion for blending creativity and technology. As a professional photographer and videographer, I have an eye for storytelling through visuals, which complements my analytical and problem-solving skills in software development.
+            I thrive on coding challenges, enjoy crafting efficient solutions, and take inspiration from poetry to fuel my creativity. My technical expertise includes C++, Java, Object-Oriented Programming, Data Structures, Design Patterns, Git, and SQL.
+            Let’s connect to create something remarkable together!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li><strong>Project 1: Arabic Text Editor</strong> 
+                Developed in Java using a three-layered architecture and client-server model.
+                Applied advanced OOP concepts and design patterns, including Proxy, Facade, Abstract Factory, and Singleton.
+                Implemented dependency inversion and dependency injection for scalable and maintainable code.</li>
+            <li><strong>Project 2: 24 Puzzle Game</strong> 
+                Developed a 24 Puzzle game in C++ utilizing fundamental programming concepts.
+                Designed and implemented an interactive gameplay experience, showcasing problem-solving and logic-building skills.</li>
+            <li><strong>Project 3: E-Commerce Store</strong> 
+                Built an E-Commerce Store application using Windows Forms in C# and SQL.
+                Focused on implementing core database concepts with Oracle 11g.
+                Delivered a robust and user-friendly interface for managing store operations.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email or connect with me on social media!</p>
+        <a href="zaidsheikhk@gmail.com" class="btn">Email Me</a>
+        <a href="https://www.linkedin.com/in/zaid-kashif-820923311/" class="btn">LinkedIn</a>
+    </section>
+
+    <footer>
+        &copy; 2025 Zaid Kashif. All Rights Reserved.
+    </footer>
+</body>
+</html>
